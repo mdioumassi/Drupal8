@@ -68,11 +68,11 @@ class Produit extends ContentEntityBase implements ProduitInterface {
             ->setDisplayOptions('view', array(
                 'label' => 'above',
                 'type'  => 'string',
-                'weight'=> -1
+                'weight'=> -4
             ))
              ->setDisplayOptions('form', array(
                 'type'  => 'string',
-                 'weight' => -1
+                 'weight' => -4
             ))
             ->setDisplayConfigurable('form', TRUE)
             ->setDisplayConfigurable('view', TRUE);
@@ -85,11 +85,11 @@ class Produit extends ContentEntityBase implements ProduitInterface {
             ->setDisplayOptions('view', array(
                 'label' => 'above',
                 'type'  => 'float',
-                'weight' => -2
+                'weight' => -3
             ))
              ->setDisplayOptions('form', array(
                 'type'  => 'float',
-                 'weight' => -2
+                 'weight' => -3
             ))
             ->setDisplayConfigurable('form', TRUE)
             ->setDisplayConfigurable('view', TRUE);
@@ -106,11 +106,11 @@ class Produit extends ContentEntityBase implements ProduitInterface {
             ->setDisplayOptions('view', array(
                 'label' => 'above',
                 'type'  => 'string',
-                'weight' => -3
+                'weight' => -2
             ))
              ->setDisplayOptions('form', array(
                 'type'  => 'string',
-                 'weight' => -3
+                 'weight' => -2
             ))
             ->setDisplayConfigurable('form', TRUE)
             ->setDisplayConfigurable('view', TRUE);
@@ -128,11 +128,11 @@ class Produit extends ContentEntityBase implements ProduitInterface {
             ->setDisplayOptions('view', array(
               'label' => 'above',
               'type' => 'list_default',
-              'weight' => -4,
+              'weight' => -1,
             ))
             ->setDisplayOptions('form', array(
               'type' => 'options_select',
-              'weight' => -4,
+              'weight' => -1,
             ))
             ->setDisplayConfigurable('form', TRUE)
             ->setDisplayConfigurable('view', TRUE);
