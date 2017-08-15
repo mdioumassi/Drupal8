@@ -136,7 +136,26 @@ class Produit extends ContentEntityBase implements ProduitInterface {
             ))
             ->setDisplayConfigurable('form', TRUE)
             ->setDisplayConfigurable('view', TRUE);
-        
+        //Champ Image
+        $fields['image'] = BaseFieldDefinition::create('image')
+            ->setLabel(t('Image'))
+            ->setDescription(t('Image du produit'))
+            ->setSettings([
+              'file_directory' => 'IMAGE_FOLDER',
+              'alt_field_required' => FALSE,
+              'file_extensions' => 'png jpg jpeg',
+            ])
+           ->setDisplayOptions('view', array(
+              'label' => 'above',
+              'type' => 'image  ',
+              'weight' => 0,
+            ))
+            ->setDisplayOptions('form', array(
+              'type' => 'image_image',
+              'weight' => 0,
+            ))
+            ->setDisplayConfigurable('form', TRUE)
+           ->setDisplayConfigurable('view', TRUE);
         //Entity Created
         $fields['created'] = BaseFieldDefinition::create('created')
             ->setLabel(t('Created'))
