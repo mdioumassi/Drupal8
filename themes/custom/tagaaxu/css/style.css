@@ -1,0 +1,28 @@
+@import url(menucanvas.css);
+/* Branding*/
+#block-tagaaxu-branding img{
+  width:10%;
+}
+  #block-tagaaxu-branding{
+      background-color: #bdc3c7;
+      border:1px solid: #bdc3c7;
+  }
+/* Menu Burger*/
+#menuburger{
+    display: none;
+}
+/* Style header*/
+#header{
+    border:1px solid white;
+}
+
+/* Style content*/
+#content{
+    border:1px solid blue;
+}
+
+/* Style footer*/
+#footer{
+    position: relative;
+    background-color: #000000;
+}

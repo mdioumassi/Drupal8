@@ -1,0 +1,15 @@
+barago.homepage:
+  path: '/produit'
+  defaults:
+    _controller: '\Drupal\barago\Controller\produitController::index'
+    _title: 'Hello World'
+  requirements:
+    _permission: 'access content'
+
+#produit.ajout:
+#    path: '/produit/add'
+#    defaults:
+#        _title: 'Ajout Produit'
+#        _form: '\Drupal\barago\Form\FormSubscribe'
+#    requirements:
+#        _permission: 'accss content'

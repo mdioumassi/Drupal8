@@ -1,0 +1,16 @@
+custom:
+    version: 1.0
+    css:
+      theme:
+        css/style.css: {}
+    js:
+        js/app.js: {}
+    dependencies:
+        - core/jquery
+
+w3css:
+    version: VERSION
+    css:
+        theme:
+            vendor/w3css/css/w3.css: {}
+            

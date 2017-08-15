@@ -1,0 +1,14 @@
+name: Tagaaxu
+type: theme
+description: 'Site dedié au groupe de tagaagu'
+core: 8.x
+base theme: false
+
+regions:
+    header: Header
+    content: content
+    footer: Footer
+
+libraries:
+    - tagaaxu/custom
+    - tagaaxu/w3css

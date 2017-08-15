@@ -1,0 +1,6 @@
+produit.collection:
+    title: 'Produit Entity'
+    route_name: entity.produit.collection
+    description: 'Créer un produit entity type'
+    weight: 10
+    parent: system.admin_structure

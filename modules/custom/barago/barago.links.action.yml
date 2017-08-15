@@ -1,0 +1,5 @@
+produit.add:
+    route_name: entity.produit.add_form
+    title: 'Add produit'
+    appears_on:
+        - entity.produit.collection
